@@ -1,0 +1,28 @@
+click_house:
+  host: localhost
+  port: 9000
+  db_name: "test_db"
+
+postgres:
+  host: localhost
+  port: 5432
+  db_name: "test_db"
+  ssl_mode: "disable"
+
+redis:
+  host: "localhost"
+  port: 6379
+  db_name: 1
+
+service:
+  max_limit: 100
+  stack_logs: 5
+
+cache: 
+  expiration: 60s
+
+http_server:
+    port: "8009"
+    read_timeout: 10s
+    write_timeout: 10s
+    max_header_bytes: 1
